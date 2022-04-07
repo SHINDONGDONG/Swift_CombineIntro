@@ -16,6 +16,8 @@
 		9B53001927FB9FC900183A8F /* Swift_CombineIntroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B53001827FB9FC900183A8F /* Swift_CombineIntroTests.swift */; };
 		9B53002327FB9FC900183A8F /* Swift_CombineIntroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B53002227FB9FC900183A8F /* Swift_CombineIntroUITests.swift */; };
 		9B53002527FB9FC900183A8F /* Swift_CombineIntroUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B53002427FB9FC900183A8F /* Swift_CombineIntroUITestsLaunchTests.swift */; };
+		9B53003227FBA22100183A8F /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B53003127FBA22100183A8F /* APICaller.swift */; };
+		9B53003427FEAE4A00183A8F /* MyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B53003327FEAE4A00183A8F /* MyViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		9B53001E27FB9FC900183A8F /* Swift_CombineIntroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_CombineIntroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B53002227FB9FC900183A8F /* Swift_CombineIntroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_CombineIntroUITests.swift; sourceTree = "<group>"; };
 		9B53002427FB9FC900183A8F /* Swift_CombineIntroUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_CombineIntroUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9B53003127FBA22100183A8F /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		9B53003327FEAE4A00183A8F /* MyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewModel.swift; sourceTree = "<group>"; };
 		9B53FFFE27FB9FC700183A8F /* Swift_CombineIntro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_CombineIntro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -79,6 +83,7 @@
 		9B53000027FB9FC700183A8F /* Swift_CombineIntro */ = {
 			isa = PBXGroup;
 			children = (
+				9B53003327FEAE4A00183A8F /* MyViewModel.swift */,
 				9B53000127FB9FC700183A8F /* AppDelegate.swift */,
 				9B53000327FB9FC700183A8F /* SceneDelegate.swift */,
 				9B53000527FB9FC700183A8F /* ViewController.swift */,
@@ -86,6 +91,7 @@
 				9B53000A27FB9FC900183A8F /* Assets.xcassets */,
 				9B53000C27FB9FC900183A8F /* LaunchScreen.storyboard */,
 				9B53000F27FB9FC900183A8F /* Info.plist */,
+				9B53003127FBA22100183A8F /* APICaller.swift */,
 			);
 			path = Swift_CombineIntro;
 			sourceTree = "<group>";
@@ -278,6 +284,8 @@
 				9B53000627FB9FC700183A8F /* ViewController.swift in Sources */,
 				9B53000227FB9FC700183A8F /* AppDelegate.swift in Sources */,
 				9B53000427FB9FC700183A8F /* SceneDelegate.swift in Sources */,
+				9B53003227FBA22100183A8F /* APICaller.swift in Sources */,
+				9B53003427FEAE4A00183A8F /* MyViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,7 +462,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -482,7 +490,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
